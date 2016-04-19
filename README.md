@@ -9,7 +9,8 @@ It are developed for know the dificulties of use the middleware.
 
 ### Architecture
 * Generic Client
-        > The client. Can be runned by the SddlChat.GenericClient.InterfaceGrafica.Main class
+
+       The client. Can be runned by the SddlChat.GenericClient.InterfaceGrafica.Main class
 * Processing Node
 
      The server. Manage the group informations. SddlChat can be runned without the Processing Node, but the group informations will not be shown.
@@ -21,8 +22,7 @@ It are developed for know the dificulties of use the middleware.
 
 ### How to run
 * [Download] the SDDL middleware JARs (gateway.jar, clientlib.jar, udilib.jar)
-* Configure the middleware with a DDS implementation
-        > http://www.lac-rio.com/dokuwiki/doku.php?id=installingdds
+* [Configure] the middleware with a DDS implementation
 * Configure the library middleware JARs on your IDE or be a spartan
 * Start a SDDL Gateway instance
 
@@ -38,3 +38,4 @@ It are developed for know the dificulties of use the middleware.
 
 [ContextNet]: <http://www.lac-rio.com/dokuwiki>
 [Download]: <http://www.lac-rio.com/dokuwiki/doku.php?id=download>
+[Configure]: <http://www.lac-rio.com/dokuwiki/doku.php?id=installingdds>
