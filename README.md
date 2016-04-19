@@ -9,21 +9,21 @@ It are developed for know the dificulties of use the middleware.
 
 ### Archteture
 * Generic Client
-    >> The client. Can be runned by the SddlChat.GenericClient.InterfaceGrafica.Main class
+    > The client. Can be runned by the SddlChat.GenericClient.InterfaceGrafica.Main class
 * Processing Node
 
      The server. Manage the group informations. SddlChat can be runned without the Processing Node, but the group informations will not be shown.
     * Node Server
-        >> It is a Processing Node type, run a server instance using the Node API, like the Generic Client. Can be runned by the SddlChat.ProcessingNode.NodeServer class
+        > It is a Processing Node type, run a server instance using the Node API, like the Generic Client. Can be runned by the SddlChat.ProcessingNode.NodeServer class
 
     * UDI Server
-        >> It is a other type, run a server instance using the UDI API. Can be runned by the SddlChat.GenericClient.InterfaceGrafica.Main class
+        > It is a other type, run a server instance using the UDI API. Can be runned by the SddlChat.GenericClient.InterfaceGrafica.Main class
 
-### How made to work
+### How to run
 * [Download] the SDDL middleware JARs (gateway.jar, clientlib.jar, udilib.jar)
 * Configure the middleware with a DDS implementation
-    >> http://www.lac-rio.com/dokuwiki/doku.php?id=installingdds
-* Configure the library middleware JARs on your IDE
+    > http://www.lac-rio.com/dokuwiki/doku.php?id=installingdds
+* Configure the library middleware JARs on your IDE or be a spartan
 * Start a SDDL Gateway instance
 
      ``` $ java -jar gateway.jar 127.0.0.1 5500 OpenSplice```
