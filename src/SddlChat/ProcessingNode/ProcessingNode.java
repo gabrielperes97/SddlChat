@@ -17,12 +17,12 @@ public class ProcessingNode {
             {
                 new NodeServer();
             }
-            System.out.println("Node server iniciado...");
+            System.out.println("Node server started...");
         }
         if (args[0].equals("udi"))
         {
             new UDIServer();
-            System.out.println("UDI server iniciado...");
+            System.out.println("UDI server started...");
         }
     }
 }

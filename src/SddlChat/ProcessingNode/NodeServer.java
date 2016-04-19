@@ -137,5 +137,6 @@ public class NodeServer implements NodeConnectionListener {
         {
             new NodeServer(args[0], Integer.parseInt(args[1]));
         }
+        System.out.println("Node Server started...");
     }
 }

@@ -22,7 +22,7 @@ public class UDIServer implements UDIDataReaderListener<ApplicationObject> {
     public static void main(String[] args)
     {
         new UDIServer();
-        System.out.println("UDI Iniciado...");
+        System.out.println("UDI Server started...");
     }
 
     public UDIServer()
